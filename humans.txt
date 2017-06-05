@@ -1,0 +1,10 @@
+# humanstxt.org/
+# The humans responsible
+
+# TEAM
+    milly schmidt - human - @meelijane
+    <name> -- <role> -- <twitter>
+
+# THANKS
+
+    Gerard https://codepen.io/ge1doot

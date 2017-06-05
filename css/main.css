@@ -1,0 +1,79 @@
+html {
+		overflow: hidden;
+		touch-action: none;
+		content-zooming: none;
+}
+
+body {
+		position: absolute;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100%;
+		background: #000;
+    font-size: 62.5%;
+}
+
+.overlay {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+canvas {
+		width: 100%;
+		height: 100%;
+		background: #fff;
+		position: absolute;
+}
+
+.images {
+		position: absolute;
+		visibility: hidden;
+}
+
+a {
+  color: #C3C3C3;
+}
+
+h1 {
+  font-family: 'VT323', monospace;
+  font-size: 10rem;
+  letter-spacing: 2rem;
+  color: white;
+  margin: 0;
+}
+h2 {
+  font-family: 'VT323', monospace;
+  font-size: 5rem;
+  letter-spacing: 2rem;
+  color: white;
+  margin:0;
+}
+p {
+    font-family: 'VT323', monospace;
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+    letter-spacing: 0.5rem;
+}
+.inner {
+  max-width: 37.5rem;
+}
+
+.divider {
+  width: 100%;
+  border: 2px solid white;
+  display: block;
+  margin: 2rem 0;
+}
