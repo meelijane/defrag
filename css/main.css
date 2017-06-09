@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 html {
 		overflow: hidden;
 		touch-action: none;
@@ -28,7 +32,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 1vw;
+  padding: 20px;
 }
 
 canvas {
@@ -82,7 +86,7 @@ p {
 }
 .inner {
   max-width: 37.5rem;
-  padding: 13vw;
+	padding-top: 20px;
 }
 
 .divider {
