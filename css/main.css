@@ -65,11 +65,11 @@ h2 {
 @media screen and (min-width: 768px) {
 	h1 {
 		font-size: 10.6rem;
-		letter-spacing: 2.5rem;
+		letter-spacing: 2.4rem;
 	}
 	h2 {
 		font-size: 4.6rem;
-	  letter-spacing: erem;
+	  letter-spacing: 2.6rem;
 	}
 }
 
